@@ -10,7 +10,7 @@ Ao abrir o deploy o usuário tem a possibilidade de pesquisar por um valor de en
 Os valores que mostram dados consumidos do json são: QWE-67Y / QWE-72Y / RTY-42Z / UTR-43Y / UTR-42Y / QWE-65Z / YODA-67Y / YODA-83Y / LKS-81Y / QWE-12Y . Disponibilizando-os para o usuário que quiser testar a aplicação.
 Qualquer valor colocado no input que não sejam esses que foram dados, a aplicação retorna um alerta de "Encomenda não Encontrada."
 
-Existe um break que faz com que a aplicação após o usuário tentar um dado falso(que não existe entre os 10 valores informados} pare e só volte a funcionar quando a página for recarregada,
+Existe um break que faz com que a aplicação após o usuário tentar um dado falso {que não existe entre os 10 valores informados} pare e só volte a funcionar quando a página for recarregada,
 Foi pensado em adiconar um botão no HTML para Reiniciar a aplicação quando o usuário apertasse esse botão e no script adicionaria a função descrita abaixo: 
 
 *// Função para reiniciar a aplicação*
@@ -18,7 +18,7 @@ Foi pensado em adiconar um botão no HTML para Reiniciar a aplicação quando o 
 *function reiniciarAplicacao() {
     document.querySelector(".input-numero-de-encomenda").value = ""; 
     document.querySelector(".no-result").innerHTML = ""; 
-    ocultarDadosNaTela(); // Oculta os dados exibidos
+    ocultarDadosNaTela(); // para ocultar os dados exibidos
     document.querySelector(".input-numero-de-encomenda").focus(); 
 }*
 
