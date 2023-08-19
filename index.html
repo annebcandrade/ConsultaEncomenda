@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <title>NitroNews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="assets/logo.png" class="img-logo">
+    
+
+    <main class="container">
+        <p>Consulte sua encomenda: </p>
+       
+        <input type="text, number" id="numero-de-encomenda" class="input-numero-de-encomenda" placeholder="Digite o número do pedido" >
+  
+        <button onclick="cliqueiNoBotao()" id="search" class="button-search"><img src="assets/lupa.png" alt="img-button"></button>
+    </main>
+
+    <h1 class="no-result"></h1>
+
+    <main id="infos-1" class="hidden-1">
+
+        <div id="div-name">
+            <span id="result-name">Número de ordem e Nome do Cliente:</span>
+            <span class="Name"></span>
+        </div>
+
+        <div id="div-valor">
+
+            <span id="result-valor">Valor do Pedido:</span>
+            <span class="Valor"></span>
+        </div>
+        </main>
+
+        
+    <main id="infos-2" class="hidden-2">
+        <div id="div-data">
+            <span id="result-data">Data do Pedido:</span>
+            <span class="Data"></span>
+        </div>
+
+        <div id="div-entrega">
+            <span id="result-entrega">Situação da Encomenda:</span>
+            <span class="Entrega"></span>
+        </div>
+
+    </main>
+
+<script text="javascript" src="script.js"></script>
+
+</body>
+
+</html>

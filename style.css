@@ -1,0 +1,113 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.img-logo {
+    width: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 375px;
+    background: #fff;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+}
+
+.input-numero-de-encomenda {
+    width: 200px;
+    border-radius: 20px;
+    border-color: green;
+    color: gray;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.button {
+    width: 40px;
+}
+
+
+.hidden-1 {
+    width: 700px;
+    background: #fff;
+    color: blue;
+    font-style: italic;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    display: flex;
+    gap: 10rem;
+}
+
+#Name, #Valor, #Data, #Entrega {
+    color: blue;
+    font-size: 500;
+    font-weight: bold;
+}
+
+.hidden-2 {
+    width: 700px;
+    background: #fff;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    display: flex;
+    color: blue;
+    font-style: italic;
+    gap: 10rem;
+}
+
+.no-result {
+    color: red;
+    margin-left: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .img-logo {
+        margin-top: 50px;
+    }
+
+    .container {
+        max-width: 50%;
+        padding: 40px;
+    }
+
+    .input-numero-de-encomenda {
+        max-width: 70%;
+    }
+
+    .hidden-1, .hidden-2 {
+        max-width: calc(50% - 0.5rem); /* 50% com um pequeno espaçamento */
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+.hidden-2:last-child {
+    margin-right: 0;
+}
+
+.Valor, #result-valor {
+    display: none;
+} }
