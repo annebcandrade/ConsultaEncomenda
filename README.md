@@ -7,7 +7,7 @@ Tecnologias utilizadas: HTML, CSS, JavaScript. Aplicados conceitos de Api e Json
 
 Ao abrir o deploy o usuário tem a possibilidade de pesquisar por um valor de encomenda, sendo 10 valores em array, os quais possuem dados de ID e NOME, VALOR, ENTREGA, DATA DO PEDIDO (dentro do nome existe o cliente e seu ID). 
 
-Os valores que mostram dados consumidos do json são: QWE-67Y / QWE-72Y / RTY-42Z / UTR-43Y / UTR-42Y / QWE-65Z / YODA-67Y / YODA-83Y / LKS-81Y /nQWE-12Y . Disponibilizando-os para o usuário que quiser testar a aplicação.
+Os valores que mostram dados consumidos do json são: QWE-67Y / QWE-72Y / RTY-42Z / UTR-43Y / UTR-42Y / QWE-65Z / YODA-67Y / YODA-83Y / LKS-81Y / QWE-12Y . Disponibilizando-os para o usuário que quiser testar a aplicação.
 Qualquer valor colocado no input que não sejam esses que foram dados, a aplicação retorna um alerta de "Encomenda não Encontrada."
 
 Existe um break que faz com que a aplicação após o usuário tentar um dado falso(que não existe entre os 10 valores informados} pare e só volte a funcionar quando a página for recarregada,
